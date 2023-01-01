@@ -1,0 +1,27 @@
+<div class="image" style="background-image: url(https://th.bing.com/th/id/OIP.URuV0WJWrCntyvQTacuMsAHaEo?w=288&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+background-position: full;
+background-size: cover;">
+
+<div class="container">
+  <br>
+  
+  <button class="btn btn-primary float-end " (click)="logout()">Logout</button>
+<div class="jumbotron">
+  <br>
+  <br><br><br>
+  <h1 class="display-4">WELCOME TO OUR PAGE !!!</h1>
+  <br>
+  <p class="lead">You can read the latest posts on your favorite sports blog by adding them to the reading list on your Blogger dashboard.</p>
+  <hr class="my-4">
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/manage-posts" role="button">Manage Posts</a>&nbsp;
+    <a class="btn btn-primary btn-lg" href="/manage-comments" role="button">Manage Comments</a>&nbsp;
+    <a class="btn btn-primary btn-lg" href="/manage-users" role="button" *ngIf="userRole=='ADMIN'">Manage Users</a>&nbsp;
+    
+  </p>
+</div>
+<br><br><br>
+<br><br><br>
+<br>
+</div>
+<br>
